@@ -6,3 +6,6 @@ Version 1.1:
 
 Requirements:
 - Google Chrome
+
+Available via:
+- Chrome Web Store: https://chrome.google.com/webstore/detail/tv-polychroma/fehfcapnoggplkpomighobokgpihfcak

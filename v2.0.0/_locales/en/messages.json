@@ -1,0 +1,41 @@
+{
+   "badge_text": {
+      "message": "Recently Added:"
+   },
+   "mark_read": {
+      "message": "Mark All as Viewed"
+   },
+   "month": {
+      "message": "01,02,03,04,05,06,07,08,09,10,11,12"
+   },
+   "more": {
+      "message": "Watch Now"
+   },
+   "nofeeds_message": {
+      "message": "Select channels in the settings panel to display content"
+   },
+   "options_hide_feed": {
+      "message": "Hide Channel"
+   },
+   "options_hide_notifications": {
+      "message": "Hide notifications"
+   },
+   "options_show_feed": {
+      "message": "Show channel"
+   },
+   "options_show_notifications": {
+      "message": "Show notifications"
+   },
+   "options_time_update": {
+      "message": "Checking channel feeds every:"
+   },
+   "options_time_update_value": {
+      "message": "60 Seconds,5 Minutes,15 Minutes,30 Minutes,1 Hour,2 Hours"
+   },
+   "options_title": {
+      "message": "Settings"
+   },
+   "today": {
+      "message": "Today"
+   }
+}

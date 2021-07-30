@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'PolychromaSans';
+    src: url('../fonts/polychroma-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolychromaSans';
+    src: url('../fonts/polychroma-bold.ttf') format('truetype'),;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolychromaSans';
+    src: url('../fonts/polychroma-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolychromaSans';
+    src: url('../fonts/polychroma-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolychromaSans';
+    src: url('../fonts/polychroma-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'PolychromaSans';
+  src: url('../fonts/polychroma-icon.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pico-"], [class*=" pico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PolychromaSans' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pico-Polychroma:before {
+  content: "\ae001";
+}
+.pico-Polychroma-Regular:before {
+  content: "\ae002";
+}
+.pico-Polychroma-Bold:before {
+  content: "\ae003";
+}
+.pico-Polychroma-Heavy:before {
+  content: "\ae004";
+}
+.pico-Clock:before {
+  content: "\ae005";
+}
+.pico-Clock-Outline:before {
+  content: "\ae006";
+}
+.pico-Clock-Refresh:before {
+  content: "\ae007";
+}
+.pico-Clock-Filled:before {
+  content: "\ae008";
+}
+.pico-AV-Timer:before {
+  content: "\ae009";
+}
+.pico-Refresh-Outline:before {
+  content: "\ae010";
+}
+.pico-Refresh-Filled:before {
+  content: "\ae011";
+}
+.pico-Plus-Outline:before {
+  content: "\ae012";
+}
+.pico-Plus-Filled:before {
+  content: "\ae013";
+}
+.pico-Close-Outline:before {
+  content: "\ae014";
+}
+.pico-Close-Filled:before {
+  content: "\ae015";
+}
+.pico-Sound-Off:before {
+  content: "\ae016";
+}
+.pico-Sound-On:before {
+  content: "\ae017";
+}
+.pico-Sound-On-Outline:before {
+  content: "\ae018";
+}
+.pico-Sound-On-Filled:before {
+  content: "\ae019";
+}
+.pico-Sound-Off-Outline:before {
+  content: "\ae020";
+}
+.pico-Sound-Off-Filled:before {
+  content: "\ae021";
+}
+.pico-Info:before {
+  content: "\ae022";
+}
+.pico-Info-Outline:before {
+  content: "\ae023";
+}
+.pico-Info-Filled:before {
+  content: "\ae024";
+}
+.pico-Chromecast-Off:before {
+  content: "\ae025";
+}
+.pico-Chromecast-On:before {
+  content: "\ae026";
+}
+.pico-Live:before {
+  content: "\ae027";
+}
+.pico-Search:before {
+  content: "\ae028";
+}
+.pico-x:before {
+  content: "\ae029";
+}
+.pico-Menu:before {
+  content: "\ae030";
+}
+.pico-Arrow-Thin-Left:before {
+  content: "\ae031";
+}
+.pico-Arrow-Thin-Right:before {
+  content: "\ae032";
+}
+.pico-Arrow-Reg-Left:before {
+  content: "\ae033";
+}
+.pico-Arrow-Reg-Right:before {
+  content: "\ae034";
+}
+.pico-Arrow-Med-Left:before {
+  content: "\ae035";
+}
+.pico-Arrow-Med-Right:before {
+  content: "\ae036";
+}
+.pico-Arrow-Bold-Left:before {
+  content: "\ae037";
+}
+.pico-Arrow-Bold-Right:before {
+  content: "\ae038";
+}
+.pico-Arrow-Filled-Left:before {
+  content: "\ae039";
+}
+.pico-Arrow-Filled-Right:before {
+  content: "\ae040";
+}
+.pico-Arrow-Outline-Left:before {
+  content: "\ae041";
+}
+.pico-Arrow-Outline-Right:before {
+  content: "\ae042";
+}
+.pico-Devices-Left:before {
+  content: "\ae043";
+}
+.pico-Devices-Right:before {
+  content: "\ae044";
+}
+.pico-Devices-Play:before {
+  content: "\ae055";
+}
+.pico-One:before {
+  content: "\ca01a";
+}
+.pico-Two:before {
+  content: "\ca02a";
+}
+.pico-BBC:before {
+  content: "\ca03a";
+}
+.pico-PBS:before {
+  content: "\ca04a";
+}
+.pico-CBC:before {
+  content: "\ca05a";
+}
+.pico-VICE:before {
+  content: "\ca06a";
+}
+.pico-Zest:before {
+  content: "\ca07a";
+}
+.pico-Lens:before {
+  content: "\ca08a";
+}
+.pico-Kino:before {
+  content: "\ca09a";
+}
+.pico-Wire:before {
+  content: "\ca10a";
+}
+.pico-ABC-News:before {
+  content: "\ca11a";
+}
+.pico-Al-Jazeera:before {
+  content: "\ca12a";
+}
+.pico-TRT-World:before {
+  content: "\ca13a";
+}
+.pico-DW:before {
+  content: "\ca14a";
+}
+.pico-DW-News:before {
+  content: "\ca14b";
+}
+.pico-France-24:before {
+  content: "\ca15a";
+}
+.pico-Sky-News:before {
+  content: "\ca16a";
+}
+.pico-Newsmax:before {
+  content: "\ca17a";
+}
+.pico-RT:before {
+  content: "\ca18a";
+}
+.pico-RT-America:before {
+  content: "\ca18b";
+}
+.pico-The-First:before {
+  content: "\ca19a";
+}
+.pico-The-First-Alt:before {
+  content: "\ca19b";
+}
+.pico-Earth-TV:before {
+  content: "\ca20a";
+}
+.pico-1091:before {
+  content: "\ca21a";
+}
+.pico-Artflix:before {
+  content: "\ca22a";
+}
+.pico-Encore:before {
+  content: "\ca23a";
+}
+.pico-FilmRise:before {
+  content: "\ca24a";
+}
+.pico-Real-Crime:before {
+  content: "\ca25a";
+}
+.pico-Real-Crime-Alt:before {
+  content: "\ca25b";
+}
+.pico-Popcornflix:before {
+  content: "\ca26a";
+}
+.pico-Flick-Vault:before {
+  content: "\ca27a";
+}
+.pico-Flick-Vault-Alt:before {
+  content: "\ca27b";
+}
+.pico-Omeleto:before {
+  content: "\ca28a";
+}
+.pico-Bravo:before {
+  content: "\ca29a";
+}
+.pico-NFB-TV:before {
+  content: "\ca30a";
+}
+.pico-Vox:before {
+  content: "\ca31a";
+}
+.pico-TED-TV:before {
+  content: "\ca32a";
+}
+.pico-Wonder:before {
+  content: "\ca33a";
+}
+.pico-Real-Stories:before {
+  content: "\ca34a";
+}
+.pico-Real-Stories-Alt:before {
+  content: "\ca34b";
+}
+.pico-Timeline:before {
+  content: "\ca35a";
+}
+.pico-WELT:before {
+  content: "\ca36a";
+}
+.pico-TVO:before {
+  content: "\ca37a";
+}
+.pico-VPRO:before {
+  content: "\ca38a";
+}
+.pico-Spark:before {
+  content: "\ca39a";
+}
+.pico-NASA-TV:before {
+  content: "\ca40a";
+}
+.pico-Tonic:before {
+  content: "\ca41a";
+}
+.pico-Epicurious:before {
+  content: "\ca42a";
+}
+.pico-Bon-Appetit:before {
+  content: "\ca43a";
+}
+.pico-Real-Families:before {
+  content: "\ca44a";
+}
+.pico-Real-Families---Alt:before {
+  content: "\ca44b";
+}
+.pico-Only-Human:before {
+  content: "\ca45a";
+}
+.pico-Only-Human-Alt:before {
+  content: "\ca45b";
+}
+.pico-Real-Wild:before {
+  content: "\ca46a";
+}
+.pico-Real-Wild-Alt:before {
+  content: "\ca46b";
+}
+.pico-Tracks:before {
+  content: "\ca47a";
+}
+.pico-Slow-TV:before {
+  content: "\ca48a";
+}
+.pico-BBC-Earth:before {
+  content: "\ca49a";
+}
+.pico-Naturescape:before {
+  content: "\ca50a";
+}
+.pico-Flow:before {
+  content: "\ca51a";
+}
+.pico-Vevo:before {
+  content: "\ca52a";
+}
+.pico-KEXP:before {
+  content: "\ca53a";
+}
+.pico-Pitchfork:before {
+  content: "\ca54a";
+}
+.pico-NPR-Music:before {
+  content: "\ca55a";
+}
+.pico-Boiler-Room:before {
+  content: "\ca56a";
+}
+.pico-Insomniac-TV:before {
+  content: "\ca57a";
+}
+.pico-Resident-Advisor:before {
+  content: "\ca58a";
+}
+.pico-Classical-FM:before {
+  content: "\ca59a";
+}
+.pico-Zoomer-Radio:before {
+  content: "\ca60a";
+}
+.pico-Americas-Test-Kitchen:before {
+  content: "\cb001";
+}
+.pico-ARTE:before {
+  content: "\cb002";
+}
+.pico-Africanews:before {
+  content: "\cb003";
+}
+.pico-Comedy-Central:before {
+  content: "\cb004";
+}
+.pico-Euronews:before {
+  content: "\cb005";
+}
+.pico-Ninja-Tune:before {
+  content: "\cb006";
+}
+.pico-Red-Bull:before {
+  content: "\cb007";
+}
+.pico-Shiver:before {
+  content: "\cb008";
+}
+.pico-Vevo-Pop:before {
+  content: "\cb009";
+}
+.pico-Vevo-R-B:before {
+  content: "\cb010";
+}
+.pico-Vevo-Trap:before {
+  content: "\cb011";
+}
+.pico-Vevo-70s:before {
+  content: "\cb012";
+}

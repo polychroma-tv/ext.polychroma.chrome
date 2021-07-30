@@ -1,0 +1,41 @@
+{
+  "month": {
+    "message": "Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre"
+  },
+  "today": {
+    "message": "Aujourd'hui"
+  },
+  "mark_read": {
+    "message": "Tout marquer comme lu"
+  },
+  "badge_text": {
+    "message": "Polychroma TV"
+  },
+  "more": {
+    "message": "En savoir plus"
+  },
+  "nofeeds_message": {
+    "message": "Sélectionnez les flux dans les paramètres d'extension"
+  },
+  "options_title": {
+    "message": "Paramètres"
+  },
+  "options_show_notifications": {
+    "message": "Afficher les notifications"
+  },
+  "options_hide_notifications": {
+    "message": "Masquer les notifications"
+  },
+  "options_show_feed": {
+    "message": "Afficher le flux"
+  },
+  "options_hide_feed": {
+    "message": "Masquer le flux"
+  },
+  "options_time_update": {
+    "message": "Fréquence de mise à jour:"
+  },
+  "options_time_update_value": {
+    "message" : "60 min,12 hrs,24 hrs,48 hrs"
+  }
+}

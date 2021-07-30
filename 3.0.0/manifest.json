@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "The finest in avant-garde programming - live & on-demand!",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "256": "images/256.png",
+      "512": "images/512.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "37.0.0.0",
+   "name": "Polychroma TV",
+   "permissions": [ "webview", "fullscreen", "http://polychroma.tv/", "https://polychroma.tv/", "http://*.polychroma.tv/", "https://*.polychroma.tv/" ],
+   "short_name": "Polychroma TV",
+   "version": "3.0.0"
+}

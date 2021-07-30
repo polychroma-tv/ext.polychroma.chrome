@@ -1,0 +1,46 @@
+{
+    "title": "TV Polychroma",
+    "site_url": "https://polychroma.tv",
+    "badge_color": "#ff0000",
+    "settings_button": "show",
+    "notification_title": "feed_title",
+    "show_extended_options": "yes",
+    "feeds": [
+        {
+            "feed_title": "#01: ONE",
+            "feed_url": "http://feeds.feedburner.com/polychroma-one",
+            "feed_type": "rss",
+            "feed_view": "default",
+            "feed_image": "show",
+            "feed_image_type": "enclosure",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "yes"
+        },
+        {
+            "feed_title": "#02: TWO",
+            "feed_url": "http://feeds.feedburner.com/polychroma-two",
+            "feed_type": "rss",
+            "feed_view": "default",
+            "feed_image": "show",
+            "feed_image_type": "enclosure",
+            "feed_description": "show",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "yes"
+        },
+        {
+            "feed_title": "#03: FLOW",
+            "feed_url": "http://feeds.feedburner.com/polychroma-flow",
+            "feed_type": "rss",
+            "feed_view": "default",
+            "feed_image": "show",
+            "feed_image_type": "enclosure",
+            "feed_description": "hide",
+            "feed_more_button": "show",
+            "feed_socials": "tw,fb,gp",
+            "feed_notifications": "yes"
+        }
+    ]
+}
